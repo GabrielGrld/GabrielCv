@@ -11,9 +11,10 @@ body{
 }
 
 /* Imagen para poner en el inicio de sessión  */
-/* div.welcome{
-  background-image: url("images/coding.png");
-} */
+.welcome img{
+max-height: 100%;
+max-width: 100%;
+}
 .hide {
   display: none;
 }
