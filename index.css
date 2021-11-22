@@ -1,12 +1,29 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 
 body{
   margin: 0;
-  text-align: center;
+  /* text-align: center; */
   /*--Elementes that are not widht set.--*/
-  font-family: 'Merriweather', serif;
-  font-size: 120%;
+  /* font-family: 'Merriweather', serif;
+  font-size: 120%; */
 }
+
+/* Imagen para poner en el inicio de sessión  */
+/* div.welcome{
+  background-image: url("images/coding.png");
+} */
+.hide {
+  display: none;
+}
+
+.html-image:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
 
 h1 {
   font-size: 5.625rem;
@@ -49,7 +66,19 @@ a
   color: #11999E;
 }
 
+p {
+  font-family: 'Outfit', sans-serif;
 
+  margin-top: 1em;
+}
+
+.be-images  p{
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+
+  margin-top: 1em;
+  color: #222831;
+}
 .BUTTON_SKS {
    margin-top: 60px;
    line-height: 2;
@@ -100,9 +129,34 @@ a
   text-decoration: none;
   font-family:'Montserrat', sans-serif;
 }
+
+.fe-images{
+  position: relative;
+}
+.fe-images  p{
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+
+  margin-top: 1em;
+  color: #222831;
+
+}
+
+
 .skills{
   margin: auto;
 }
+.skills-container{
+  display: inline-block;
+  float: left;
+}
+
+.skill-images{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
 .trademark-info
 {
   padding-top: 35px;
@@ -139,7 +193,10 @@ padding-top: 50px;
 .pro {
   text-decoration: underline;
 }
-
+.project-image{
+  width: 286px;
+  height: 180px;
+}
 
 .top-cloud {
   position: absolute;
@@ -163,27 +220,17 @@ padding-top: 50px;
  {
    float: right;
   width: 30%;
-  margin-left: 30px;   
+  margin-left: 30px;
 }
 
 .description-profile
 {
-  color: #40514E;
+  font-size: 1.5rem;
+  color: #142F43 ;
+
 }
 
 
 #pro {
   font-weight: normal;
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

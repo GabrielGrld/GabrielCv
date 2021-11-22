@@ -126,6 +126,11 @@ padding-top: 50px;
     padding-bottom: 35px;
 }
 
+.skill-images{
+  width: 200px;
+  height: 200px;
+}
+
 .skill-row
 {
   margin: 100px auto 100px auto;
