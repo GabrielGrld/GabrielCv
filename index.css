@@ -211,14 +211,16 @@ width: 100%;
   position: absolute;
 top: 10;
 left: 10px;
+z-index: 1;
 }
 .bottom-cloud {
   /* position: relative;
   left: 400px;
   bottom: 300px; */
   position: absolute;
-  bottom: 30%;
+  bottom: 15%;
   right: 20px;
+  z-index:1;
 }
 
 .comp-img
@@ -242,6 +244,9 @@ left: 10px;
 
 }
 
+.mountaion{
+  z-index: 2;
+}
 
 #pro {
   font-weight: normal;
