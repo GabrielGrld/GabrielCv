@@ -199,15 +199,26 @@ padding-top: 50px;
   height: 180px;
 }
 
+.wrap{
+  position: relative;
+width: 100%;
+}
+
 .top-cloud {
-  position: absolute;
+  /* position: relative;
   right: 500px;
-  top: 50px;
+  top: 50px; */
+  position: absolute;
+top: 10;
+left: 10px;
 }
 .bottom-cloud {
-  position: absolute;
+  /* position: relative;
   left: 400px;
-  bottom: 300px;
+  bottom: 300px; */
+  position: absolute;
+  bottom: 30%;
+  right: 20px;
 }
 
 .comp-img
