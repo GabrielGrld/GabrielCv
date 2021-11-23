@@ -212,6 +212,7 @@ width: 100%;
 top: 10;
 left: 10px;
 z-index: 1;
+color: #66BFBF;
 }
 .bottom-cloud {
   /* position: relative;
@@ -244,9 +245,7 @@ z-index: 1;
 
 }
 
-.mountaion{
-  z-index: 2;
-}
+
 
 #pro {
   font-weight: normal;
