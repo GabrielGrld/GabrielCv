@@ -11,18 +11,6 @@ body{
 }
 
 /* Imagen para poner en el inicio de sessión  */
-.welcome img{
-max-height: 100%;
-max-width: 100%;
-}
-.hide {
-  display: none;
-}
-
-.html-image:hover + .hide {
-  display: block;
-  color: red;
-}
 
 
 
@@ -73,6 +61,20 @@ p {
   margin-top: 1em;
 }
 
+.welcome img{
+max-height: 100%;
+max-width: 100%;
+}
+.hide {
+  display: none;
+}
+
+.html-image:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
 .be-images  p{
   font-size: 20px;
   font-family: 'Outfit', sans-serif;
@@ -121,6 +123,10 @@ p {
    text-decoration: none;
 }
 
+.btn{
+  background-color: #66BFBF;
+  border-color: #66BFBF;
+}
 .contact-me {
       margin-bottom: 90px;
 }
