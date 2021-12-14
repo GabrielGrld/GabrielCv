@@ -244,7 +244,8 @@ color: #66BFBF;
 {
   font-size: 1.5rem;
   color: #142F43 ;
-
+  text-align:justify;
+  text-justify:auto;
 }
 
 
