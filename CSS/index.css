@@ -127,6 +127,11 @@ max-width: 100%;
   background-color: #66BFBF;
   border-color: #66BFBF;
 }
+
+.card-text{
+  text-align:justify;
+  text-justify:auto;
+}
 .contact-me {
       margin-bottom: 90px;
 }
@@ -252,4 +257,10 @@ color: #66BFBF;
 
 #pro {
   font-weight: normal;
+}
+
+
+p .skill-row{
+  text-align:justify;
+  text-justify:auto;
 }
