@@ -132,6 +132,11 @@ max-width: 100%;
   text-align:justify;
   text-justify:auto;
 }
+
+.card a, .description-profile a {
+  text-decoration: none;
+}
+
 .contact-me {
       margin-bottom: 90px;
 }
@@ -144,6 +149,7 @@ max-width: 100%;
 
 .fe-images{
   position: relative;
+  margin-top: 2%;
 }
 .fe-images  p{
   font-size: 20px;
